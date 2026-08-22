@@ -1,0 +1,242 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+
+    /* बाद में यहां factory की background image लगा सकते हैं */
+    background:
+        linear-gradient(rgba(10, 15, 20, 0.75),
+            rgba(10, 15, 20, 0.75)),
+        url("factory.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    position: relative;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    padding: 25px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Menu */
+.menu {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* Logo */
+.logo {
+    text-align: center;
+    border: 2px solid #d4c27a;
+    padding: 8px 15px;
+}
+
+
+.logo h1 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+
+.logo p {
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+
+/* Contact Button */
+.contact-btn {
+    background: transparent;
+    color: white;
+
+    border: 2px solid white;
+
+    padding: 12px 25px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Hero Content */
+.hero-content {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+/* Since Text */
+.since {
+    font-size: 14px;
+    letter-spacing: 5px;
+
+    margin-bottom: 30px;
+}
+
+
+/* Main Heading */
+.hero-content h2 {
+    max-width: 950px;
+
+    font-family: Georgia, serif;
+
+    font-size: 65px;
+    line-height: 1.1;
+
+    font-weight: bold;
+}
+
+
+/* Golden Text */
+.hero-content h2 span {
+    display: block;
+    color: #d4c27a;
+}
+
+
+/* Explore Button */
+.explore-btn {
+    margin-top: 40px;
+
+    padding: 20px 45px;
+
+    background-color: white;
+    color: #333;
+
+    border: none;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.explore-btn:hover {
+    background-color: #d4c27a;
+}
+
+
+/* WhatsApp Button */
+.whatsapp {
+    position: fixed;
+
+    right: 30px;
+    bottom: 30px;
+
+    background-color: #25D366;
+    color: white;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+
+    .hero-content h2 {
+        font-size: 45px;
+    }
+
+
+    .contact-btn {
+        padding: 10px 15px;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+
+    .since {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+
+    .logo h1 {
+        font-size: 18px;
+    }
+
+
+    .menu {
+        font-size: 25px;
+    }
+
+
+    .contact-btn {
+        font-size: 10px;
+    }
+
+}
