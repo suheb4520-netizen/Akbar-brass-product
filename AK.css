@@ -15,12 +15,11 @@ body {
 /* Hero Section */
 .hero {
     min-height: 100vh;
-
-    /* बाद में यहां factory की background image लगा सकते हैं */
+    background-image: url("factory.jfif");
     background:
         linear-gradient(rgba(10, 15, 20, 0.75),
             rgba(10, 15, 20, 0.75)),
-        url("factory.jpg");
+        url("factory.jfif");
 
     background-size: cover;
     background-position: center;
@@ -71,7 +70,7 @@ header {
 
 
 /* Contact Button */
-.contact-btn {
+.contact-button {
     background: transparent;
     color: white;
 
