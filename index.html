@@ -9,38 +9,81 @@
 </head>
 <body>
     <header class="site-header">
-        <a class="logo" href="#top" aria-label="Akbar Brass Products home">
-            <strong>AKBAR</strong>
-            <span>BRASS PRODUCTS</span>
-        </a>
-        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-            <a href="#about">About</a>
-            <a href="#capabilities">Capabilities</a>
-            <a href="#process">Process</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <a class="contact-button" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
-        <button class="menu-button" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false">
-            <span></span><span></span>
-        </button>
+        <div class="topbar">
+            <div class="topbar-inner">
+                <span>Moradabad, India</span>
+                <a href="tel:+919149138277">+91 91491 38277</a>
+                <a href="mailto:suheb4520@gmail.com">suheb4520@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="nav-shell">
+            <a class="logo" href="#top" aria-label="Akbar Brass Products home">
+                <strong>AKBAR</strong>
+                <span>BRASS PRODUCTS</span>
+            </a>
+
+            <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#capabilities">Capabilities</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a class="contact-button" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+
+            <button class="menu-button" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+        </div>
     </header>
 
     <main id="top">
         <section class="hero">
-            <div class="hero-content">
-                <p class="eyebrow">SINCE 1974 <span></span> MORADABAD, INDIA</p>
-                <h1>Material, shaped<br><em>with purpose.</em></h1>
-                <p class="hero-intro">Integrated manufacturing for considered objects in brass, metal, marble and wood.</p>
-                <a class="button button-light" href="#capabilities">Explore capabilities <span aria-hidden="true">↓</span></a>
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow"><span></span> Since 1974 • Moradabad, India</p>
+                    <h1>Precision-crafted living essentials in <em>brass, stone, wood and more.</em></h1>
+                    <p class="hero-intro">We design and manufacture premium home and lifestyle products for global buyers who value durability, elegance and trusted production.</p>
+
+                    <div class="hero-actions">
+                        <a class="button button-light" href="#capabilities">Explore capabilities <span aria-hidden="true">↓</span></a>
+                        <a class="button button-ghost" href="#contact">Request a quote</a>
+                    </div>
+
+                    <ul class="hero-points" aria-label="Key strengths">
+                        <li>Multi-material manufacturing</li>
+                        <li>Global export-ready standards</li>
+                        <li>Integrated production support</li>
+                    </ul>
+                </div>
+
+                <div class="hero-panel" aria-label="Company overview">
+                    <div class="panel-card panel-card-primary">
+                        <p class="panel-label">Manufacturing strength</p>
+                        <h2>50+ years</h2>
+                        <p>of craft-led expertise rooted in Moradabad, the heart of India’s metal and home product manufacturing.</p>
+                    </div>
+
+                    <div class="panel-card panel-card-secondary">
+                        <div>
+                            <strong>04</strong>
+                            <span>material families</span>
+                        </div>
+                        <div>
+                            <strong>32+</strong>
+                            <span>markets served</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="hero-note">01 / 04<br><span>Manufacturing excellence<br>for global markets</span></p>
         </section>
 
         <section class="intro section" id="about">
             <div class="section-label">01 <span>Who we are</span></div>
             <div class="intro-copy">
                 <h2>From raw material<br>to <em>lasting form.</em></h2>
-                <p>Akbar Brass Products is a multi-material manufacturing company specialising in metal, marble, wood and mixed-material home products. From our horizontally integrated production campus, we combine modern systems with disciplined processes.</p>
+                <p>Akbar Brass Products is a multi-material manufacturing company creating refined home and lifestyle products in brass, metal, marble, wood and mixed-material combinations. Built on a disciplined production ecosystem, we serve clients who need quality, consistency and dependable execution.</p>
                 <a class="text-link" href="#process">Our approach <span aria-hidden="true">↗</span></a>
             </div>
             <div class="stat-grid">
@@ -55,69 +98,175 @@
                 <div class="section-label">02 <span>What we make</span></div>
                 <h2>One campus.<br><em>Many possibilities.</em></h2>
             </div>
+
             <div class="material-grid">
                 <article class="material-card material-card-featured">
                     <img src="brass%20material.jfif" alt="Polished brass material with a warm golden finish">
-                    <div class="material-card-content"><span class="number">01 / METAL</span><h3>Brass &amp; metal</h3><p>Our signature material, shaped through precision casting, spinning and finishing into pieces with a rich, enduring character.</p><a class="text-link" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a></div>
+                    <div class="material-card-content">
+                        <span class="number">01 / METAL</span>
+                        <h3>Brass &amp; metal</h3>
+                        <p>Precision casting, rolling, spinning and finishing for home products that command warmth, richness and longevity.</p>
+                        <a class="text-link" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
+                    </div>
                 </article>
+
                 <article class="material-card">
                     <img src="marble.jfif" alt="Natural marble surface prepared for a home product">
-                    <div class="material-card-content"><span class="number">02 / STONE</span><h3>Marble</h3><p>Natural stone selected for its unique grain, then cut and finished to bring a quiet sense of permanence to every object.</p></div>
+                    <div class="material-card-content">
+                        <span class="number">02 / STONE</span>
+                        <h3>Marble</h3>
+                        <p>Natural stone selected for its unique grain, cut and finished to create elegant, timeless statement pieces.</p>
+                    </div>
                 </article>
+
                 <article class="material-card">
                     <img src="wood.jfif" alt="Warm wood material with a crafted natural grain">
-                    <div class="material-card-content"><span class="number">03 / TIMBER</span><h3>Wood</h3><p>Tactile, warm and carefully finished, our wood components add a human softness to considered interior collections.</p></div>
+                    <div class="material-card-content">
+                        <span class="number">03 / TIMBER</span>
+                        <h3>Wood</h3>
+                        <p>Warm, tactile pieces shaped with careful finishing to achieve understated luxury and practical durability.</p>
+                    </div>
                 </article>
+
                 <article class="material-card material-card-wide">
                     <img src="mixed.jfif" alt="Mixed material product combining brass, wood and stone">
-                    <div class="material-card-content"><span class="number">04 / COMBINATION</span><h3>Mixed materials</h3><p>When materials meet, possibilities expand. We unite metal, stone and wood  into balanced, functional forms made to last.</p></div>
+                    <div class="material-card-content">
+                        <span class="number">04 / COMBINATION</span>
+                        <h3>Mixed materials</h3>
+                        <p>Combined material design that blends texture, function and visual balance into products built for modern interiors.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="features section">
+            <div class="feature-header">
+                <div class="section-label">03 <span>Why clients choose us</span></div>
+                <h2>Manufacturing built around quality, clarity and consistency.</h2>
+            </div>
+
+            <div class="feature-grid">
+                <article>
+                    <span>01</span>
+                    <h3>Integrated production</h3>
+                    <p>Multiple processes and material capabilities come together under one roof, reducing delays and improving accountability.</p>
+                </article>
+                <article>
+                    <span>02</span>
+                    <h3>Design-to-delivery support</h3>
+                    <p>From concept development and sampling to production and shipment coordination, the workflow stays aligned.</p>
+                </article>
+                <article>
+                    <span>03</span>
+                    <h3>Premium finish standards</h3>
+                    <p>We focus on hand-finished detail, material integrity and consistent quality that meets international expectations.</p>
                 </article>
             </div>
         </section>
 
         <section class="process section" id="process">
             <div class="process-heading">
-                <div class="section-label">03 <span>How we work</span></div>
+                <div class="section-label">04 <span>How we work</span></div>
                 <div class="process-title">
                     <h2>Built for detail.<br><em>Ready for scale.</em></h2>
-                    <p>Every project moves through a considered, collaborative process, from the first sketch to the final shipment.</p>
+                    <p>Every project moves through a thoughtful production process, from consultation to final dispatch.</p>
                 </div>
             </div>
+
             <ol class="process-steps">
                 <li>
                     <span class="process-number">01</span>
-                    <div><h3>Develop</h3><p>We translate the intent of a design into a practical, production-ready object through samples, feedback and close collaboration.</p></div>
+                    <div>
+                        <h3>Develop</h3>
+                        <p>We turn design intent into practical product direction through prototyping, refinement and close collaboration.</p>
+                    </div>
                 </li>
                 <li>
                     <span class="process-number">02</span>
-                    <div><h3>Make</h3><p>Specialist teams and integrated facilities work together under one roof to protect quality at every stage.</p></div>
+                    <div>
+                        <h3>Make</h3>
+                        <p>Dedicated teams and facilities produce each item with quality control embedded at every stage.</p>
+                    </div>
                 </li>
                 <li>
                     <span class="process-number">03</span>
-                    <div><h3>Deliver</h3><p>From approved sample to consistent global supply, we make the journey dependable and clear.</p></div>
+                    <div>
+                        <h3>Deliver</h3>
+                        <p>Approved samples move into repeatable, global supply with transparent coordination and dependable timing.</p>
+                    </div>
                 </li>
             </ol>
         </section>
 
+        <section class="trust section">
+            <div class="trust-grid">
+                <div class="trust-copy">
+                    <p class="eyebrow"><span></span> Quality you can count on</p>
+                    <h2>Reliable partnerships<br>for growing brands.</h2>
+                </div>
+
+                <div class="trust-stats">
+                    <div>
+                        <strong>100%</strong>
+                        <span>Process focus</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Commercial support</span>
+                    </div>
+                    <div>
+                        <strong>50+</strong>
+                        <span>Years of expertise</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="contact-section section" id="contact">
-            <p class="eyebrow">LET'S MAKE SOMETHING LAST</p>
-            <h2>Have a project<br>in <em>mind?</em></h2>
-            <a class="button button-dark" href="mailto:suheb4520@gmail.com">suheb4520@gmail.com <span aria-hidden="true">↗</span></a>
+            <div class="contact-shell">
+                <div class="contact-copy">
+                    <p class="eyebrow">Let's make something lasting</p>
+                    <h2>Have a project<br>in <em>mind?</em></h2>
+                    <p>Tell us about your product idea, sourcing requirement or manufacturing need. We’ll help shape the right path forward.</p>
+                    <a class="button button-dark" href="mailto:suheb4520@gmail.com">suheb4520@gmail.com <span aria-hidden="true">↗</span></a>
+                </div>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="field-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name" placeholder="Your name" />
+                    </div>
+                    <div class="field-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="you@example.com" />
+                    </div>
+                    <div class="field-group">
+                        <label for="project">Project</label>
+                        <textarea id="project" name="project" rows="4" placeholder="Tell us about your requirement"></textarea>
+                    </div>
+                    <button type="submit" class="button button-dark">Send inquiry</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-top">
             <div class="footer-brand">
-                <a class="logo" href="#top" aria-label="Return to Akbar Brass Products home"><strong>AKBAR</strong><span>BRASS PRODUCTS</span></a>
+                <a class="logo" href="#top" aria-label="Return to Akbar Brass Products home">
+                    <strong>AKBAR</strong>
+                    <span>BRASS PRODUCTS</span>
+                </a>
                 <p>Integrated multi-material manufacturing<br>Moradabad, India</p>
             </div>
+
             <div class="footer-column">
                 <span class="footer-label">Explore</span>
                 <a href="#about">About us</a>
                 <a href="#capabilities">Materials &amp; capabilities</a>
                 <a href="#process">Our process</a>
             </div>
+
             <div class="footer-column">
                 <span class="footer-label">Contact</span>
                 <a href="tel:+919149138277">+91 91491 38277</a>
@@ -125,8 +274,13 @@
                 <a href="https://wa.me/919149138277" target="_blank" rel="noopener">WhatsApp ↗</a>
             </div>
         </div>
-        <div class="footer-bottom"><span>© 2026 Akbar Brass Products</span><a href="#top">Back to top ↑</a></div>
+
+        <div class="footer-bottom">
+            <span>© 2026 Akbar Brass Products</span>
+            <a href="#top">Back to top ↑</a>
+        </div>
     </footer>
+
     <a class="whatsapp" href="https://wa.me/919149138277" target="_blank" rel="noopener" aria-label="Chat with Akbar Brass Products on WhatsApp">WhatsApp</a>
     <script src="AK.js"></script>
 </body>
